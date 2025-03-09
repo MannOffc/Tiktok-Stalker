@@ -25,7 +25,7 @@ button.addEventListener("click", async () => {
           <p>Created Time: ${formatDateTime(createTime)}</p>
           <p>Verified: ${verified ? "✅" : "❌"}</p>
           <p>Follower: ${format(followerCount)}</p>
-          <p>Follwoing: ${format(followingCount)}</p>
+          <p>Following: ${format(followingCount)}</p>
           <p>Like: ${format(heartCount)}</p>
         </div>
       </div>
