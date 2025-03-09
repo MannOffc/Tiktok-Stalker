@@ -1,0 +1,80 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiktok Stalker</title>
+  <link rel="stylesheet" href="res/bootstrap@5.2.0.min.css">
+  <link rel="stylesheet" href="res/chartist.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-maxim@1.0.0/dist/maxim.css">
+  <style>
+    * {
+      color: white;
+    }
+    body {
+      background-image: url("image/bg.jpeg");
+      font-family: 'Maxim', sans-serif;
+    }
+    .card {
+      background-color: rgba(0, 0, 50, 0.5);
+      margin: 30px;
+      border: none;
+    }
+    #inputQuery {
+      background-color: black;
+      border: 2px solid white;
+      color: white;
+    }
+    #tombol {
+      display: block;
+      color: white;
+      background-color: #007CE6;
+      margin: 5px auto;
+      width: 200px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.5 ease-in-out;
+    }
+    
+    #tombol:hover {
+      background-color: #00549B;
+    }
+    
+    #hasil {
+      background-color: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <input class="form-control" id="inputQuery" type="text" placeholder="Input Username">
+      </div>
+      <button id="tombol">Search</button>
+      <div class="text-center mt-3" id="hasil"></div>
+    </div>
+    <div class="card mt-3">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fa-solid fa-gift fa-2x text-success"></i>
+            <h5 class="card-title">100% Gratis</h5>
+          </div>
+          <div class="col-md-4">
+            <i class="fa-solid fa-circle-check fa-2x text-primary"></i>
+            <h5 class="card-title">Mudah Digunakan</h5>
+          </div>
+          <div class="col-md-4">
+            <i class="fa-solid fa-rocket fa-2x text-danger"></i>
+            <h5 class="card-title">Tanpa Limit</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.2.0/js/bootstrap.min.js"></script>
+</body>
+</html>
